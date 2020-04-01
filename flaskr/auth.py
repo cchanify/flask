@@ -55,7 +55,7 @@ def register():
             error = 'User {} is already registered.'.format(username)
 
         if error is None:
-            db.execut(
+            db.execute(
                 'INSERT INTO user (username, password) VALUES (?, ?)',
                 (username, generate_password_hash(password))
             )
