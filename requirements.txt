@@ -2,7 +2,8 @@ attrs==19.3.0
 click==7.1.1
 coverage==5.0.4
 Flask==1.1.1
--e git+https://github.com/cchanify/flask.git@f239228bacf75e042ac101a956d64167f12bb38b#egg=flaskr
+-e git+https://github.com/cchanify/flask.git@7d93f196d117cda94819fa18aa2b3ead13441079#egg=flaskr
+gunicorn==20.0.4
 importlib-metadata==1.6.0
 itsdangerous==1.1.0
 Jinja2==2.11.1
